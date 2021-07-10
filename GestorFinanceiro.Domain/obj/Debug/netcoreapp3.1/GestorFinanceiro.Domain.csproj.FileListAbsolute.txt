@@ -1,0 +1,9 @@
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\bin\Debug\netcoreapp3.1\GestorFinanceiro.Domain.deps.json
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\bin\Debug\netcoreapp3.1\GestorFinanceiro.Domain.dll
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\bin\Debug\netcoreapp3.1\GestorFinanceiro.Domain.pdb
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.AssemblyInfoInputs.cache
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.AssemblyInfo.cs
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.dll
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.pdb
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.Domain\obj\Debug\netcoreapp3.1\GestorFinanceiro.Domain.csprojAssemblyReference.cache

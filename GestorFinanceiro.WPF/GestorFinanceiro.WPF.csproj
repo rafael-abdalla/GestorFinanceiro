@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\cash_counter_48px.png" />
+    <None Remove="Resources\estimate_48px.png" />
+    <None Remove="Resources\staff_48px.png" />
+    <None Remove="Resources\user_shield_48px.png" />
+    <None Remove="Resources\delivered_box_48px.png" />
+    <None Remove="Resources\check_document_48px.png" />
+    <None Remove="Resources\user_48px.png" />
+    <None Remove="Resources\delete_16px.png" />
+    <None Remove="Resources\search_32px.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestorFinanceiro.EntityFramework\GestorFinanceiro.EntityFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\cash_counter_48px.png" />
+    <Resource Include="Resources\estimate_48px.png" />
+    <Resource Include="Resources\staff_48px.png" />
+    <Resource Include="Resources\user_shield_48px.png" />
+    <Resource Include="Resources\delivered_box_48px.png" />
+    <Resource Include="Resources\check_document_48px.png" />
+    <Resource Include="Resources\user_48px.png" />
+    <Resource Include="Resources\delete_16px.png" />
+    <Resource Include="Resources\search_32px.png" />
+  </ItemGroup>
+
+</Project>

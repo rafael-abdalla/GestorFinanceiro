@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="GestorFinanceiro.WPF.Views.Controles.TextProcura"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Name="root"
+             xmlns:local="clr-namespace:GestorFinanceiro.WPF.Views.Controles"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox
+            Grid.Column="0"
+            materialDesign:HintAssist.Hint="{Binding Hint, ElementName=root, FallbackValue='Hint'}"
+            Text="{Binding Text, ElementName=root}"
+            CharacterCasing="Upper"
+            Margin="5"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+            VerticalAlignment="Center" />
+        <Button
+            Grid.Column="1"
+            Background="Transparent"
+            BorderThickness="0"
+            ToolTip="Procurar"
+            Command="{Binding Command, ElementName=root}"
+            CommandParameter="{Binding}"
+            Width="32"
+            Height="32"
+            Padding="0 10 0 0">
+            <Image Source="/Resources/search_32px.png" Width="22" Height="22" />
+        </Button>
+    </Grid>
+</UserControl>

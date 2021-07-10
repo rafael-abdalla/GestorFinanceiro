@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="GestorFinanceiro.WPF.Views.Controles.ucProcura"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GestorFinanceiro.WPF.Views.Controles"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="16"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Width="650" Height="450" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock
+                Grid.Column="0"
+                Text="Procura"
+                FontSize="18"
+                FontWeight="Medium"
+                VerticalAlignment="Center"
+                Margin="10 0 0 0" />
+            
+            <Button
+                Grid.Column="1"
+                Width="32"
+                Height="32"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Background="Transparent"
+                BorderThickness="0"
+                Padding="0"
+                Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}">
+                <Image Source="/Resources/delete_16px.png" Width="16" Height="16" />
+            </Button>
+        </Grid>
+        
+        <local:TextProcura
+            Grid.Row="1"
+            Hint="Procura"
+            Text="{Binding TextoProcura, Mode=TwoWay}"
+            Margin="10 0 10 0" />
+
+        <DataGrid
+            Grid.Row="2"
+            ItemsSource="{Binding Resultados, UpdateSourceTrigger=PropertyChanged}"
+            SelectedItem="{Binding Selecao}"
+            AutoGenerateColumns="False"
+            CanUserAddRows="False"
+            Margin="10 0 10 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Descrição" Binding="{Binding Descricao}" Width="*" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Border
+            Grid.Row="3"
+            BorderThickness="0 1 0 0"
+            BorderBrush="#e3e3e3" />
+
+        <StackPanel
+            Grid.Row="3"
+            Orientation="Horizontal"
+            HorizontalAlignment="Right">
+            <Button
+                Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"
+                Style="{StaticResource MaterialDesignOutlinedButton}"
+                BorderBrush="LightGray"
+                Foreground="#252423"
+                ToolTip="Confirmar"
+                Content="Confirmar"
+                Margin="0 10 5 10" />
+        </StackPanel>
+    </Grid>
+</UserControl>

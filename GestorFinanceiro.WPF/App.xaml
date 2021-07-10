@@ -1,0 +1,41 @@
+﻿<Application x:Class="GestorFinanceiro.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:GestorFinanceiro.WPF.ViewModels"
+             xmlns:autenticacao="clr-namespace:GestorFinanceiro.WPF.Views.Autenticacao"
+             xmlns:cadastros="clr-namespace:GestorFinanceiro.WPF.Views.Cadastros"
+             xmlns:movimentacao="clr-namespace:GestorFinanceiro.WPF.Views.Movimentacao"
+             xmlns:local="clr-namespace:GestorFinanceiro.WPF">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Views/Styles/Common.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewmodels:LoginViewModel}">
+                <autenticacao:ucLogin LoginCommand="{Binding LoginCommand}" />
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewmodels:VendasViewModel}">
+                <cadastros:ucVendas />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewmodels:TabelaPrecosViewModel}">
+                <cadastros:ucTabelaPreco />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewmodels:FinanceiroViewModel}">
+                <movimentacao:ucFinanceiro />
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewmodels:ClienteViewModel}">
+                <cadastros:ucCliente />
+            </DataTemplate>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

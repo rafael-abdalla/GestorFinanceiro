@@ -1,0 +1,15 @@
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.deps.json
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.runtimeconfig.json
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.runtimeconfig.dev.json
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.dll
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.pdb
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.Domain.dll
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\bin\Debug\netcoreapp3.1\GestorFinanceiro.Domain.pdb
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.csprojAssemblyReference.cache
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.AssemblyInfo.cs
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.csproj.CopyComplete
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.dll
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.pdb
+C:\Users\rafael\source\repos\GestorFinanceiro\GestorFinanceiro.EntityFramework\obj\Debug\netcoreapp3.1\GestorFinanceiro.EntityFramework.genruntimeconfig.cache

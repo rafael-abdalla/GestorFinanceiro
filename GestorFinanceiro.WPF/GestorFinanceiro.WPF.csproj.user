@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Autenticacao\ucLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Cadastros\ucCliente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Cadastros\ucTabelaPreco.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Cadastros\ucVendas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Controles\NavigationBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Controles\TextProcura.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Controles\ucProcura.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Movimentacao\ucFinanceiro.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Autenticacao\ucLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Cadastros\ucCliente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Cadastros\ucTabelaPreco.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Cadastros\ucVendas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controles\NavigationBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controles\TextProcura.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controles\ucProcura.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Movimentacao\ucFinanceiro.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\Common.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
