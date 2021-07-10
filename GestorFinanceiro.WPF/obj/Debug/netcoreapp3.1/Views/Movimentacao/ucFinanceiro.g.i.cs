@@ -56,7 +56,7 @@ namespace GestorFinanceiro.WPF.Views.Movimentacao {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;V1.0.0.0;component/views/movimentacao/ucfinanceiro.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;component/views/movimentacao/ucfinanceiro.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Movimentacao\ucFinanceiro.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

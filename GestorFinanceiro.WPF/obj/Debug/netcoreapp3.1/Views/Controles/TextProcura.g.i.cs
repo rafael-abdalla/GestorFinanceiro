@@ -64,7 +64,7 @@ namespace GestorFinanceiro.WPF.Views.Controles {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;V1.0.0.0;component/views/controles/textprocura.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;component/views/controles/textprocura.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Controles\TextProcura.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

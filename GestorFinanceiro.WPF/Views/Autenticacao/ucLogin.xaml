@@ -60,6 +60,7 @@
                         Grid.Row="1"
                         materialDesign:HintAssist.Hint="Login"
                         Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}"
+                        CharacterCasing="Upper"
                         Margin="5"
                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
 

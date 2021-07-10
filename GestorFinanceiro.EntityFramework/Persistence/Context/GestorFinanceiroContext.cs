@@ -8,7 +8,7 @@ namespace GestorFinanceiro.EntityFramework.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("server=localhost; Port=5432; user id=postgres; password=Rhda260981; database=GestorFinanceiro;");
+            optionsBuilder.UseNpgsql("server=localhost; Port=5432; user id=postgres; password=pgadmin; database=GestorFinanceiro;");
             optionsBuilder.EnableSensitiveDataLogging();
             base.OnConfiguring(optionsBuilder);
         }

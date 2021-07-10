@@ -57,7 +57,7 @@ namespace GestorFinanceiro.WPF.Views.Cadastros {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;V1.0.0.0;component/views/cadastros/ucvendas.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestorFinanceiro.WPF;component/views/cadastros/ucvendas.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Cadastros\ucVendas.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
